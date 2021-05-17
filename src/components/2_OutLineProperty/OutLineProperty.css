@@ -1,0 +1,15 @@
+.outline-wrapper{
+    border: 10px solid orangered;
+    /*text-align: center;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+.outline-item{
+    background-color: lightsalmon;
+    font-size: 50px;
+    padding: 25px;
+    outline: 25px solid red;
+    border: 25px solid green;
+}
