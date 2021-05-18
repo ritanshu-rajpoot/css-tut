@@ -5,7 +5,7 @@ import img_2 from "../../assets/pexels-felix-mittermeier-956999.jpg"
 import img_3 from "../../assets/pexels-pixabay-33688.jpg"
 import img_4 from "../../assets/download (4).png"
 const BackGroundProperty = () =>{
-    const customStyle = {backgroundImage:`url(${img_4})`,backgroundAttachment:"",backgroundPosition:"left top", backgroundRepeat:"no-repeat",backgroundSize:""}
+    const customStyle = {backgroundImage:`linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)), url(${img_4})`,backgroundAttachment:"",backgroundPosition:"center", backgroundRepeat:"no-repeat",backgroundSize:""}
     return(
         <div className="parent-container">
             {/*Background-color*/}
@@ -25,8 +25,10 @@ const BackGroundProperty = () =>{
             <div className="background-attachment common" style={{backgroundImage:`url(${img_3})`,backgroundAttachment:"fixed"}}>
                 <h2>hii im img background-attachment</h2>
             </div>
-            <div className="common background-position" style={{backgroundImage:`url(${img_3})`,backgroundAttachment:"",backgroundPosition:"left", backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+            <div className="common background-position" style={{backgroundImage:` url(${img_3})`,backgroundAttachment:"",backgroundPosition:"left", backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                 <h2>hii im img background-position</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad commodi dolorum eaque eius illo illum labore laboriosam magni maiores neque nihil, officia placeat quas quo quos sapiente suscipit vitae voluptatem.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad commodi dolorum eaque eius illo illum labore laboriosam magni maiores neque nihil, officia placeat quas quo quos sapiente suscipit vitae voluptatem.</p>
             </div>
             <div className="common background-position" style={customStyle}>
                 <h2>hii im img background-position</h2>

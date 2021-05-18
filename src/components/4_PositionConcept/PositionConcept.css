@@ -1,0 +1,55 @@
+.parent-positionConcept{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1000px;
+}
+
+.common-positionConcept{
+    background: linear-gradient(lightcoral,lightgreen);
+    height: 200px;
+    width: 300px;
+    color: darkblue;
+    box-shadow: 10px 10px 10px darkcyan;
+    padding: 10px;
+    margin: 20px;
+}
+.static{
+    border: 2px solid red;
+    position: static;
+    left: 20px;
+}
+.relative{
+    position: relative;
+    left: 60px;
+}
+.green-border {
+    border: 3px solid darkgreen;
+}
+.ancestor{
+    position: relative;
+    left: 100px;
+}
+
+.absolute{
+    border: 2px solid black;
+    position: absolute;
+    left: 100px;
+    top :40px;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 10%;
+    /*right: 80%;*/
+}
+.sticky{
+    position: sticky;
+    top: 30px;
+
+}
+.texts-container{
+    font-family: "Pattaya",sans-serif;
+}
