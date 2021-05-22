@@ -1,0 +1,45 @@
+.parent-DisplayProperty{
+    padding: 30px;
+    /*border: 1px solid red;*/
+}
+.sec-1-inline h1{
+    background-color: orangered;
+    color: white;
+    display: inline;
+    margin: 10px;
+}
+.sec-2-block a{
+    background-color: darkslategray;
+    color: white;
+    margin: 10px;
+    display: block;
+}
+.sec-2-block p {
+    background-color: #394242;
+}
+.sec-2-block span{
+    background-color: #141515;
+    color: white;
+    display: block;
+}
+.common-styles-displayProperty{
+
+}
+.parent-display-inline-block{
+    background-color: lightgray;
+}
+.child-display-inline-block{
+    background-color: blueviolet;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    /*display: inline;*/
+    display: inline-block;
+}
+.display-none{
+    background-color: #ff3025;
+    color: #f6f6f6;
+    font-size: 20px;
+    margin-top: 20px;
+    display: none;
+}
